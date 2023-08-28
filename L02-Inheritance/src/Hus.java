@@ -1,5 +1,8 @@
 public class Hus extends Beboelse{
-    public Hus(String adresse, int kvm) {
+
+    private int grundKvm;
+    public Hus(String adresse, int kvm, int grundKvm) {
         super(adresse, kvm);
+        this.grundKvm = grundKvm;
     }
 }
