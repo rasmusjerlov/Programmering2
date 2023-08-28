@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f04143f-ba4e-432b-baa3-00a6f6a6ffef" name="Changes" comment="L02">
-      <change afterPath="$PROJECT_DIR$/L02-Inheritance/src/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L02-Inheritance/src/opgave1/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L02-Inheritance/src/opgave1/Mekaniker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L02-Inheritance/src/opgave1/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L02-Inheritance/src/opgave1/Synsmand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L02-Inheritance/src/opgave1/Værkfører.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L02-Inheritance/src/Hus.java" beforeDir="false" afterPath="$PROJECT_DIR$/L02-Inheritance/src/Hus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L02-Inheritance/src/Sommerhus.java" beforeDir="false" afterPath="$PROJECT_DIR$/L02-Inheritance/src/Sommerhus.java" afterDir="false" />
-    </list>
+    <list default="true" id="3f04143f-ba4e-432b-baa3-00a6f6a6ffef" name="Changes" comment="L02" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,7 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1693207083794</updated>
       <workItem from="1693207084883" duration="341000" />
-      <workItem from="1693207431778" duration="5412000" />
+      <workItem from="1693207431778" duration="5781000" />
     </task>
     <task id="LOCAL-00001" summary="L02">
       <option name="closed" value="true" />
@@ -120,7 +110,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693208227220</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="L02">
+      <option name="closed" value="true" />
+      <created>1693214614817</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693214614817</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
