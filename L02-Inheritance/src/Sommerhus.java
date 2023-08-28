@@ -8,4 +8,9 @@ public class Sommerhus extends Hus {
     public boolean isBeboet() {
         return beboet;
     }
+
+    @Override
+    public int ejendomsVaerdi() {
+        return super.ejendomsVaerdi() - 24;
+    }
 }

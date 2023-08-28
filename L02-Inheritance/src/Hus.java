@@ -5,4 +5,8 @@ public class Hus extends Beboelse{
         super(adresse, kvm);
         this.grundKvm = grundKvm;
     }
+    public int ejendomsVaerdi() {
+        int vaerdi = super.getKvm() * 290 + this.grundKvm * 40;
+        return vaerdi;
+    }
 }
