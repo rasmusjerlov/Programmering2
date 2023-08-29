@@ -27,7 +27,7 @@ public class Synsmand extends Mekaniker{
 
     @Override
     public double beregnLøn() {
-        return super.beregnLøn() + tillæg;
+        return super.beregnLøn() + getTillæg();
     }
 
 }

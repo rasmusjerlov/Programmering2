@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f04143f-ba4e-432b-baa3-00a6f6a6ffef" name="Changes" comment="L02" />
+    <list default="true" id="3f04143f-ba4e-432b-baa3-00a6f6a6ffef" name="Changes" comment="L02">
+      <change afterPath="$PROJECT_DIR$/L02-Inheritance/src/opgave3/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L02-Inheritance/src/opgave3/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L02-Inheritance/src/opgave3/Discount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L02-Inheritance/src/opgave3/FixedDiscount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L02-Inheritance/src/opgave3/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L02-Inheritance/src/opgave3/OrderLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L02-Inheritance/src/opgave3/PercentageDiscount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L02-Inheritance/src/opgave3/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L02-Inheritance/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/L02-Inheritance/src/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L02-Inheritance/src/opgave1/Synsmand.java" beforeDir="false" afterPath="$PROJECT_DIR$/L02-Inheritance/src/opgave1/Synsmand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L02-Inheritance/src/opgave1/Værkfører.java" beforeDir="false" afterPath="$PROJECT_DIR$/L02-Inheritance/src/opgave1/Værkfører.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +68,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.opgave1.App">
+  <component name="RunManager" selected="Application.opgave3.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App" />
       <module name="L02-Inheritance" />
@@ -76,8 +89,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="opgave3.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="opgave3.App" />
+      <module name="L02-Inheritance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="opgave3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.opgave3.App" />
         <item itemvalue="Application.opgave1.App" />
         <item itemvalue="Application.App" />
       </list>
@@ -92,7 +119,7 @@
       <option name="presentableId" value="Default" />
       <updated>1693207083794</updated>
       <workItem from="1693207084883" duration="341000" />
-      <workItem from="1693207431778" duration="5781000" />
+      <workItem from="1693207431778" duration="9453000" />
     </task>
     <task id="LOCAL-00001" summary="L02">
       <option name="closed" value="true" />
@@ -118,7 +145,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693214614817</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="L02">
+      <option name="closed" value="true" />
+      <created>1693215022025</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1693215022025</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

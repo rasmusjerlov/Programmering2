@@ -27,6 +27,6 @@ public class Værkfører extends Mekaniker{
     }
     @Override
     public double beregnLøn() {
-        return super.beregnLøn() + (37 * tillægPrUge);
+        return super.beregnLøn() + getTillægPrUge();
     }
 }
