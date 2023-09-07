@@ -1,0 +1,12 @@
+Comparable
+
+public class Person implements Comparable<Person> {
+    private String name;
+
+    @Override
+    public int compareTo(Person p) {
+        int comp = this.name.compareTo(p.getName());
+        return comp;
+    }
+
+String har allerede en compare metode på sig

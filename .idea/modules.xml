@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/L02-Inheritance/L02-Inheritance.iml" filepath="$PROJECT_DIR$/L02-Inheritance/L02-Inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/L03-Polymorph/L03-Polymorph.iml" filepath="$PROJECT_DIR$/L03-Polymorph/L03-Polymorph.iml" />
+      <module fileurl="file://$PROJECT_DIR$/L04-Interfaces/L04-Interfaces.iml" filepath="$PROJECT_DIR$/L04-Interfaces/L04-Interfaces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/L05 - Lambda og interfaces/L05 - Lambda og interfaces.iml" filepath="$PROJECT_DIR$/L05 - Lambda og interfaces/L05 - Lambda og interfaces.iml" />
       <module fileurl="file://$PROJECT_DIR$/Programmering2.iml" filepath="$PROJECT_DIR$/Programmering2.iml" />
     </modules>
   </component>
