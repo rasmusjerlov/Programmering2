@@ -1,6 +1,6 @@
 package minihandel;
 
-public class FixedDiscount extends Discount {
+public class FixedDiscount implements Discount {
 
    private int fixedDiscount;
    private int discountLimit;

@@ -43,23 +43,31 @@ public class Customer implements Comparable<Customer> {
 
     @Override
     public int compareTo(Customer c) {
-        if (this.lastName.compareTo(c.lastName) < 0) {
-            return -1;
-        } else if (this.lastName.compareTo(c.lastName) > 0) {
-            return 1;
-        } else if (this.firstName.compareTo(c.firstName) < 0) {
-            return -1;
-        } else if (this.firstName.compareTo(c.firstName) > 0) {
-            return 1;
-        } else if (this.age < c.age) {
-            return -1;
-        } else if (this.age > c.age) {
-            return 1;
-        } else {
-            return 0;
-        }
-    }
+        int result = 0;
+        int compared = this.lastName.compareTo(c.getLastName());
 
+        if (compared < 0) {
+            result = -1;
+        } else if (compared > 0) {
+            result = 1;
+        } else {
+            int comparedFirstName = this.firstName.compareTo(c.getFirstName());
+            if (comparedFirstName < 0) {
+                result = -1;
+            } else if (comparedFirstName > 0) {
+                result = 1;
+            } else {
+                int comparedAge = 0;
+                if (this.age > c.getAge()) {
+                    comparedAge = 1;
+                } else if (this.age < c.getAge()) {
+                    comparedAge = -1;
+                } else result = 0;
+
+            }
+        }
+        return result;
+    }
     @Override
     public String toString() {
         return "" + firstName + " " + lastName + " " + age;

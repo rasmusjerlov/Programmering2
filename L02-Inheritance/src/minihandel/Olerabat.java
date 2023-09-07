@@ -1,6 +1,6 @@
 package minihandel;
 
-public class Olerabat extends Discount {
+public class Olerabat implements Discount {
     private String name;
 
     public Olerabat(String name) {

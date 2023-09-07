@@ -1,6 +1,6 @@
 package minihandel;
 
-public class PercentDiscount extends Discount{
+public class PercentDiscount implements Discount{
     private int discountPercentage;
 
     public PercentDiscount(int discountPercentage) {

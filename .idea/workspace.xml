@@ -4,19 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f04143f-ba4e-432b-baa3-00a6f6a6ffef" name="Changes" comment="L02">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L03-Polymorph/L03-Polymorph.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L04-Interfaces/L04-Interfaces.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L04-Interfaces/src/Noter" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L04-Interfaces/src/opgave2/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L04-Interfaces/src/opgave2/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L04-Interfaces/src/opgaver/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L04-Interfaces/src/opgaver/Chili.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L04-Interfaces/src/opgaver/Measurable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="3f04143f-ba4e-432b-baa3-00a6f6a6ffef" name="Changes" comment="L04">
+      <change afterPath="$PROJECT_DIR$/L05 - Lambda og interfaces/L05 - Lambda og interfaces.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L04-Interfaces/src/opgave2/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/L04-Interfaces/src/opgave2/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L04-Interfaces/src/opgave2/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/L04-Interfaces/src/opgave2/Customer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,28 +40,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "17",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/rasmusjerlov/Library/CloudStorage/OneDrive-EFIF/Datamatiker/2. Semester/PRO 2/Projects/Programmering2/L04-Interfaces/src/opgave2/App.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/" />
@@ -164,6 +156,7 @@
       <workItem from="1693818882732" duration="22000" />
       <workItem from="1693818922337" duration="2882000" />
       <workItem from="1693844892224" duration="592000" />
+      <workItem from="1694068319356" duration="2987000" />
     </task>
     <task id="LOCAL-00001" summary="L02">
       <option name="closed" value="true" />
@@ -221,7 +214,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693810304429</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="L04">
+      <option name="closed" value="true" />
+      <created>1694069422469</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1694069422469</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,7 +231,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="L02" />
-    <option name="LAST_COMMIT_MESSAGE" value="L02" />
+    <MESSAGE value="L04" />
+    <option name="LAST_COMMIT_MESSAGE" value="L04" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
