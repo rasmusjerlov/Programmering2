@@ -8,7 +8,7 @@ import java.util.*;
  */
 public class Customer {
     private String name;
-    private LocalDate birthday;
+    private double birthYear;
     private List<Order> orders = new ArrayList<Order>();
     private Discount discount;
 
@@ -18,9 +18,9 @@ public class Customer {
      * @param name     the name.
      * @param birthday birthday of the customer.
      */
-    public Customer(String name, LocalDate birthday) {
+    public Customer(String name, double birthday) {
         this.name = name;
-        this.birthday = birthday;
+        this.birthYear = birthday;
     }
 
     public String getName() {
@@ -31,8 +31,8 @@ public class Customer {
         this.name = name;
     }
 
-    public LocalDate getBirthday() {
-        return this.birthday;
+    public double getBirthYear() {
+        return this.birthYear;
     }
 
     public List<Order> getOrders() {
@@ -64,6 +64,7 @@ public class Customer {
         }
         return sum;
     }
+
 
     public Discount getDiscount() {
         return discount;

@@ -5,10 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f04143f-ba4e-432b-baa3-00a6f6a6ffef" name="Changes" comment="L04">
-      <change afterPath="$PROJECT_DIR$/L05 - Lambda og interfaces/L05 - Lambda og interfaces.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L05 - Lambda og interfaces/src/biludstilling/AppGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L05 - Lambda og interfaces/src/biludstilling/AppMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L05 - Lambda og interfaces/src/biludstilling/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L05 - Lambda og interfaces/src/biludstilling/Paint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L05 - Lambda og interfaces/src/biludstilling/Pencil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L05 - Lambda og interfaces/src/biludstilling/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L05 - Lambda og interfaces/src/eksempelklassen/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L05 - Lambda og interfaces/src/eksempelklassen/PersonApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L05 - Lambda og interfaces/src/ex1student/Ex1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L05 - Lambda og interfaces/src/ex1student/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L05 - Lambda og interfaces/src/ex2student/Ex2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L05 - Lambda og interfaces/src/ex2student/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L05 - Lambda og interfaces/src/ex5student/Ex5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L05 - Lambda og interfaces/src/ex5student/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L06 - Test/L06 - Test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L06 - Test/src/controller/CookieController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L06 - Test/src/controller/CookieControllerI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L06 - Test/src/controller/IngredientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L06 - Test/src/controller/IngredientControllerI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L06 - Test/src/model/Bakeable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L06 - Test/src/model/Cookie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L06 - Test/src/model/Dough.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L06 - Test/src/model/Ingredient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L06 - Test/src/model/Recipe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L06 - Test/test/controller/CookieControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L06 - Test/test/model/DoughTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L06 - Test/test/model/RecipeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L06 - TestOpgaver/L06 - TestOpgaver.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L06 - TestOpgaver/src/bilForsikring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L06 - TestOpgaver/test/bilForsikringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Programmering2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L04-Interfaces/src/opgave2/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/L04-Interfaces/src/opgave2/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L04-Interfaces/src/opgave2/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/L04-Interfaces/src/opgave2/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L02-Inheritance/src/minihandel/AgeDiscount.java" beforeDir="false" afterPath="$PROJECT_DIR$/L02-Inheritance/src/minihandel/AgeDiscount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L02-Inheritance/src/minihandel/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/L02-Inheritance/src/minihandel/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L02-Inheritance/src/minihandel/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/L02-Inheritance/src/minihandel/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L05 - Lambda og interfaces/L05 - Lambda og interfaces.iml" beforeDir="false" afterPath="$PROJECT_DIR$/L05 - Lambda og interfaces/L05 - Lambda og interfaces.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +52,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -44,96 +78,117 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "full.screen.before.presentation.mode": "true",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "/Users/rasmusjerlov/Library/CloudStorage/OneDrive-EFIF/Datamatiker/2. Semester/PRO 2/Projects/Programmering2/L06 - Test/test",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/rasmusjerlov/Library/CloudStorage/OneDrive-EFIF/Datamatiker/2. Semester/PRO 2/Projects/Programmering2/L04-Interfaces/src/opgave2/App.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
+    "onboarding.tips.debug.path": "/Users/rasmusjerlov/Library/CloudStorage/OneDrive-EFIF/Datamatiker/2. Semester/PRO 2/Projects/Programmering2/L05 - Lambda og interfaces/src/ex5student/Ex5.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.General",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/L06 - Test/test" />
+      <recent name="$PROJECT_DIR$/L06 - Test/src" />
+      <recent name="$PROJECT_DIR$/L05 - Lambda og interfaces/src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="controller" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.opgave2.App">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="App" />
-      <module name="L02-Inheritance" />
+  <component name="RunManager" selected="JUnit.bilForsikringTest.beregnPraemie_under25_kvinde_2år">
+    <configuration name="RecipeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="L06 - Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="model" />
+      <option name="MAIN_CLASS_NAME" value="model.RecipeTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="opgave1.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="opgave1.App" />
-      <module name="L02-Inheritance" />
+    <configuration name="RecipeTest.addIngredient_addsExistingIngredient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="L06 - Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="opgave1.*" />
+          <option name="PATTERN" value="model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="model" />
+      <option name="MAIN_CLASS_NAME" value="model.RecipeTest" />
+      <option name="METHOD_NAME" value="addIngredient_addsExistingIngredient" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="opgave2.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="opgave2.App" />
-      <module name="L04-Interfaces" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="opgave2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="bilForsikringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="L06 - TestOpgaver" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="bilForsikringTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="opgave3.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="opgave3.App" />
-      <module name="L02-Inheritance" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="opgave3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="bilForsikringTest.beregnPraemie_under25_kvinde_2år" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="L06 - TestOpgaver" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="bilForsikringTest" />
+      <option name="METHOD_NAME" value="beregnPraemie_under25_kvinde_2år" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="opgaver.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="opgaver.App" />
-      <module name="L04-Interfaces" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="opgaver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="bilForsikringTest.beregnPraemie_under25_mand_2år" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="L06 - TestOpgaver" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="bilForsikringTest" />
+      <option name="METHOD_NAME" value="beregnPraemie_under25_mand_2år" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.opgave2.App" />
-        <item itemvalue="Application.opgaver.App" />
-        <item itemvalue="Application.opgave3.App" />
-        <item itemvalue="Application.opgave1.App" />
-        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.bilForsikringTest.beregnPraemie_under25_kvinde_2år" />
+        <item itemvalue="JUnit.bilForsikringTest" />
+        <item itemvalue="JUnit.bilForsikringTest.beregnPraemie_under25_mand_2år" />
+        <item itemvalue="JUnit.RecipeTest" />
+        <item itemvalue="JUnit.RecipeTest.addIngredient_addsExistingIngredient" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +211,11 @@
       <workItem from="1693818882732" duration="22000" />
       <workItem from="1693818922337" duration="2882000" />
       <workItem from="1693844892224" duration="592000" />
-      <workItem from="1694068319356" duration="2987000" />
+      <workItem from="1694068319356" duration="9303000" />
+      <workItem from="1694422655772" duration="1628000" />
+      <workItem from="1694462199798" duration="362000" />
+      <workItem from="1694759696210" duration="1192000" />
+      <workItem from="1694761082153" duration="6684000" />
     </task>
     <task id="LOCAL-00001" summary="L02">
       <option name="closed" value="true" />
@@ -222,7 +281,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694069422469</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="L04">
+      <option name="closed" value="true" />
+      <created>1694072140346</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1694072140346</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,5 +304,10 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Programmering2$Ex1.ic" NAME="Ex1 Coverage Results" MODIFIED="1694423398178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>lambda.ex1student.*</FILTER>
+    </SUITE>
   </component>
 </project>

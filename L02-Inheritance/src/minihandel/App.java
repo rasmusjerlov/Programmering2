@@ -14,8 +14,12 @@ public class App {
         Product p5 = new Product(5,"Pizza",50);
 
         //Customer objekter
-        Customer c1 = new Customer("ole", LocalDate.of(2000,10,10));
-        Customer c2 = new Customer("Bo", LocalDate.of(2000,11,11));
+        Customer c1 = new Customer("ole", 1988);
+        Customer c2 = new Customer("Bo", 2002);
+        Customer c3 = new Customer("Rasmus", 2000);
+
+        //Age discount
+        AgeDiscount ad = new AgeDiscount(2000);
 
         //Order Objekter
         Order or1 = new Order(1);
@@ -76,6 +80,9 @@ public class App {
 
         System.out.println("Prisen efter discount for kunde 2 med procentRabat:");
         System.out.println(pd.getDiscount(c2.totalBuy()));
+
+        System.out.println("Pris efter discount i en alder af 23 år: ");
+        System.out.println(ad.getDiscount(c2.totalBuy()));
 
 
     }
