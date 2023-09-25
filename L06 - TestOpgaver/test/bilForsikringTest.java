@@ -3,7 +3,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
 public class bilForsikringTest {
-        private bilForsikring mockeddBilForsikring;
+    private bilForsikring mockeddBilForsikring;
 
     @Test
     void beregnPraemie_under25_kvinde_2år() {
@@ -16,6 +16,7 @@ public class bilForsikringTest {
         //Assert
         assertEquals(1187.5, bf.beregnPraemie(24, true, 2));
     }
+
     @Test
     void beregnPraemie_under25_mand_2år() {
         //Arrange
@@ -27,6 +28,7 @@ public class bilForsikringTest {
         //Assert
         assertEquals(1250, bf.beregnPraemie(24, false, 2));
     }
+
     @Test
     void beregnPraemie_over25_kvinde_3år() {
         //Arrange
@@ -38,6 +40,7 @@ public class bilForsikringTest {
         //Assert
         assertEquals(807.5, bf.beregnPraemie(25, true, 3));
     }
+
     @Test
     void beregnPraemie_over25_mand_6år() {
         //Arrange
@@ -62,6 +65,7 @@ public class bilForsikringTest {
         //Assert
         assertEquals(712.5, bf.beregnPraemie(26, true, 8));
     }
+
     @Test
     void beregnPraemie_over25_kvinde_9år() {
         //Arrange
@@ -73,7 +77,5 @@ public class bilForsikringTest {
         //Assert
         assertEquals(712.5, bf.beregnPraemie(26, true, 8));
     }
-
-
-    }
+}
 
