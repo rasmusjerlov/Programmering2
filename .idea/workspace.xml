@@ -4,22 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f04143f-ba4e-432b-baa3-00a6f6a6ffef" name="Changes" comment="18. september kl 09">
-      <change afterPath="$PROJECT_DIR$/L09 - DobbelArrays/L09 - DobbelArrays.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L09 - DobbelArrays/src/arraysdobbel/eksempeldobbelarray/AfproevDobbelArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L09 - DobbelArrays/src/arraysdobbel/eksempeldobbelarray/DobbelArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L09 - DobbelArrays/src/arraysdobbel/eksempelsodasurvey/SodaSurvey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L09 - DobbelArrays/src/arraysdobbel/opgave1_2dobbelArray/DobbelArrayMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L09 - DobbelArrays/src/arraysdobbel/opgave1_2dobbelArray/Opgave1DobbelArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L09 - DobbelArrays/src/arraysdobbel/opgave1_2dobbelArray/Opgave2DobbelArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L09 - DobbelArrays/src/arraysdobbel/opgave3Teater/TheaterFloor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L09 - DobbelArrays/src/arraysdobbel/opgave3Teater/TheaterFloorApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L09 - DobbelArrays/src/arraysdobbel/opgave4barchart/BarChart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L09 - DobbelArrays/src/arraysdobbel/opgave4barchart/BarChartTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="3f04143f-ba4e-432b-baa3-00a6f6a6ffef" name="Changes" comment="L09 - Dobbelt Array">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L05 - Lambda og interfaces/L05 - Lambda og interfaces.iml" beforeDir="false" afterPath="$PROJECT_DIR$/L05 - Lambda og interfaces/L05 - Lambda og interfaces.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L06 - TestOpgaver/test/bilForsikringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/L06 - TestOpgaver/test/bilForsikringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L09 - DobbelArrays/src/arraysdobbel/opgave1_2dobbelArray/Opgave2DobbelArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/L09 - DobbelArrays/src/arraysdobbel/opgave1_2dobbelArray/Opgave2DobbelArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +88,7 @@
       <recent name="controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Opgave1DobbelArray">
+  <component name="RunManager" selected="Application.Opgave2DobbelArray">
     <configuration name="Opgave1DobbelArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arraysdobbel.opgave1_2dobbelArray.Opgave1DobbelArray" />
       <module name="L09 - DobbelArrays" />
@@ -115,17 +102,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecipeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="L06 - Test" />
+    <configuration name="Opgave2DobbelArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arraysdobbel.opgave1_2dobbelArray.Opgave2DobbelArray" />
+      <module name="L09 - DobbelArrays" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="model.*" />
+          <option name="PATTERN" value="arraysdobbel.opgave1_2dobbelArray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="model" />
-      <option name="MAIN_CLASS_NAME" value="model.RecipeTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -161,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Opgave2DobbelArray" />
         <item itemvalue="Application.Opgave1DobbelArray" />
         <item itemvalue="JUnit.bilForsikringTest.beregnPraemie_under25_kvinde_2år" />
         <item itemvalue="JUnit.bilForsikringTest" />
         <item itemvalue="JUnit.bilForsikringTest.beregnPraemie_under25_mand_2år" />
-        <item itemvalue="JUnit.RecipeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +180,7 @@
       <workItem from="1694761082153" duration="7841000" />
       <workItem from="1695020155628" duration="1207000" />
       <workItem from="1695109636060" duration="1201000" />
-      <workItem from="1695278673323" duration="6329000" />
+      <workItem from="1695278673323" duration="7825000" />
     </task>
     <task id="LOCAL-00001" summary="L02">
       <option name="closed" value="true" />
@@ -277,7 +262,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695019906317</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="L09 - Dobbelt Array">
+      <option name="closed" value="true" />
+      <created>1695630369246</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1695630369246</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,7 +281,8 @@
     <MESSAGE value="L02" />
     <MESSAGE value="L04" />
     <MESSAGE value="18. september kl 09" />
-    <option name="LAST_COMMIT_MESSAGE" value="18. september kl 09" />
+    <MESSAGE value="L09 - Dobbelt Array" />
+    <option name="LAST_COMMIT_MESSAGE" value="L09 - Dobbelt Array" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

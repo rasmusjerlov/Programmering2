@@ -17,7 +17,8 @@ public class TheaterFloor {
 	 */
 
 	public int buySeat(int row, int seat) {
-		// TODO
+		int seatBought = 0;
+
 		return -1;
 	}
 
@@ -26,8 +27,7 @@ public class TheaterFloor {
 	 * prisen returneres. Der returneres 0, hvis der ikke er nogen pladser ledige
 	 * til den pågældende pris.
 	 *
-	 * @param row
-	 * @param seat
+	 * @param price
 	 * @return
 	 */
 	public int buySeat(int price) {

@@ -17,6 +17,11 @@ public class Opgave2DobbelArray {
         System.out.println();
         System.out.println("Nedenfor skulle der stå 5 på alle pladser");
         System.out.println();
+        for (int[] array : values) {
+            for (int i = 0; i < array.length; i++) {
+                array[i] = 5;
+            }
+        }
         da.udskrivArray(values);
         
        // TODO Opgave 2.2  lav ændringer i values så der står 2 i lige rækker og 3 i ulige
@@ -24,6 +29,17 @@ public class Opgave2DobbelArray {
         System.out.println();
         System.out.println("Nedenfor skulle der stå 2 og 3 på hver anden række");
         System.out.println();
+        for (int i = 0; i < values.length; i++) {
+            if (i % 2 == 0) {
+                for (int n = 0; n < values[i].length; n++) {
+                    values[i][n] = 2;
+                }
+            } else {
+                for (int n = 0; n < values[i].length; n++) {
+                    values[i][n] = 3;
+                }
+            }
+        }
         da.udskrivArray(values);
         
        // TODO Opgave 2.3  lav ændringer i values så der står 2 i lige søjler og 3 i ulige
@@ -31,6 +47,17 @@ public class Opgave2DobbelArray {
         System.out.println();
         System.out.println("Nedenfor skulle der stå 2 og 3 på hver anden søjle");
         System.out.println();
+        for (int i = 0; i < values.length; i++) {
+            if (i % 2 == 0) {
+                for (int j = 0; i < values.length; j++) {
+                    if (j % 2 == 0) {
+                        values[i][j] = 2;
+                    } else {
+                        values[i][j] = 3;
+                    }
+                }
+            }
+        }
         da.udskrivArray(values);
         
         
@@ -40,19 +67,49 @@ public class Opgave2DobbelArray {
         System.out.println();
         System.out.println("Nedenfor skulle der stå 0 og 1 på alle pladser som på skakbræt");
         System.out.println();
-        da.udskrivArray(values);
+            // TODO Opgave 2.4 lav ændringer i values så den har skiftende 0'er og 1'er som på et skakbræt
 
-        // TODO Opgave 2.5 lav ændringer så alle elementer i nederste og øverste række samt første
-        // og sidste søjle er 5 og resten skal være 2.
+            System.out.println();
+            System.out.println("Nedenfor skulle der stå 0 og 1 på alle pladser som på skakbræt");
+            System.out.println();
+            for (int i = 0; i < values.length; i++) {
+                if(i % 2 == 0) {
+                    for (int j = 0; j < values[i].length; j++) {
+                        if(j % 2 == 0) {
+                            values[i][j] = 0;
+                        } else {
+                            values[i][j] = 1;
+                        }
+                    }
+                } else {
+                    for (int j = 0; j < values[i].length; j++) {
+                        if(j % 2 == 0) {
+                            values[i][j] = 1;
+                        } else {
+                            values[i][j] = 0;
+                        }
+                    }
+                }
 
-        System.out.println();
-        System.out.println("Nedenfor skulle der stå 5 i kanten og 2 ellers");
-        System.out.println();
-        da.udskrivArray(values);
+            }
+            da.udskrivArray(values);
 
+            // TODO Opgave 2.5 lav ændringer så alle elementer i nederste og øverste række samt første og sidste søjle er 5 og resten skal være 2.
+
+            System.out.println();
+            System.out.println("Nedenfor skulle der stå 5 i kanten og 2 ellers");
+            System.out.println();
+            for (int i = 0; i < values.length; i++) {
+                for (int j = 0; j < values.length; j++) {
+                    if(i == 0 || i == values.length - 1 || j == 0 || j == values.length - 1) {
+                        values[i][j] = 5;
+                    } else {
+                        values[i][j] = 2;
+                    }
+                }
+            }
+            da.udskrivArray(values);
+
+        }
 
     }
-
-
-
-}
