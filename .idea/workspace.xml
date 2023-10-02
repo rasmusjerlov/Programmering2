@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f04143f-ba4e-432b-baa3-00a6f6a6ffef" name="Changes" comment="L09 - Dobbelt Array">
-      <change afterPath="$PROJECT_DIR$/L10 - Collections/L10 - Collections.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L10 - Collections/Opgave2Test/Opgave2/SkoleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L10 - Collections/src/AnvendMetoderPaaHashSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L10 - Collections/src/Opgave2/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L10 - Collections/src/Opgave2/Skole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L10 - Collections/src/Opgave2/Studerende.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="3f04143f-ba4e-432b-baa3-00a6f6a6ffef" name="Changes" comment="L10 - Collections">
+      <change beforePath="$PROJECT_DIR$/L10 - Collections/src/AnvendMetoderPaaHashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/L10 - Collections/src/AnvendMetoderPaaHashSet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +88,7 @@
       <recent name="controller" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SkoleTest.getStuderendeList">
+  <component name="RunManager" selected="JUnit.SkoleTest.addSkole_AddStudents_Print">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Opgave2.App" />
       <module name="L10 - Collections" />
@@ -135,6 +128,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SkoleTest.addSkole_AddStudents_Print" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="L10 - Collections" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Opgave2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Opgave2" />
+      <option name="MAIN_CLASS_NAME" value="Opgave2.SkoleTest" />
+      <option name="METHOD_NAME" value="addSkole_AddStudents_Print" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SkoleTest.getStuderendeList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="L10 - Collections" />
       <extension name="coverage">
@@ -151,23 +160,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bilForsikringTest.beregnPraemie_under25_kvinde_2år" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="L06 - TestOpgaver" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="bilForsikringTest" />
-      <option name="METHOD_NAME" value="beregnPraemie_under25_kvinde_2år" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SkoleTest.addSkole_AddStudents_Print" />
         <item itemvalue="JUnit.SkoleTest.getStuderendeList" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.Opgave2DobbelArray" />
         <item itemvalue="Application.Opgave1DobbelArray" />
-        <item itemvalue="JUnit.bilForsikringTest.beregnPraemie_under25_kvinde_2år" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +197,7 @@
       <workItem from="1695020155628" duration="1207000" />
       <workItem from="1695109636060" duration="1201000" />
       <workItem from="1695278673323" duration="11712000" />
-      <workItem from="1696236125042" duration="1705000" />
+      <workItem from="1696236125042" duration="2088000" />
     </task>
     <task id="LOCAL-00001" summary="L02">
       <option name="closed" value="true" />
@@ -296,7 +295,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695935273658</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="L10 - Collections">
+      <option name="closed" value="true" />
+      <created>1696238517578</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1696238517578</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,7 +315,8 @@
     <MESSAGE value="L04" />
     <MESSAGE value="18. september kl 09" />
     <MESSAGE value="L09 - Dobbelt Array" />
-    <option name="LAST_COMMIT_MESSAGE" value="L09 - Dobbelt Array" />
+    <MESSAGE value="L10 - Collections" />
+    <option name="LAST_COMMIT_MESSAGE" value="L10 - Collections" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

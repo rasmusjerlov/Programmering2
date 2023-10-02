@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class SkoleTest {
 
     @org.junit.jupiter.api.Test
-    void getStuderendeList() {
+    void addSkole_AddStudents_Print() {
         //Arrange
         Skole skole = new Skole("Erhvervsakademi");
 
@@ -30,26 +30,8 @@ class SkoleTest {
         assertTrue(skole.getStuderendeList().contains(s3));
         assertTrue(skole.getStuderendeList().contains(s4));
 
+        System.out.println(skole);
 
-    }
 
-    @org.junit.jupiter.api.Test
-    void setStuderendeList() {
-    }
-
-    @org.junit.jupiter.api.Test
-    void addStuderende() {
-    }
-
-    @org.junit.jupiter.api.Test
-    void removeStuderende() {
-    }
-
-    @org.junit.jupiter.api.Test
-    void gennemsnit() {
-    }
-
-    @org.junit.jupiter.api.Test
-    void findStuderende() {
     }
 }
