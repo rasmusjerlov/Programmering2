@@ -20,7 +20,7 @@ public class App {
         skole.addStuderende(s2);
         skole.addStuderende(s3);
         skole.addStuderende(s4);
+        System.out.println(s1.toString() + s2.toString() + s3.toString() + s4.toString());
 
-        System.out.println(skole);
     }
 }

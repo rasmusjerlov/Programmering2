@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f04143f-ba4e-432b-baa3-00a6f6a6ffef" name="Changes" comment="L10 - Collections">
-      <change afterPath="$PROJECT_DIR$/L10 - Collections/src/Opgave2x3/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L10 - Collections/src/Opgave2x3/Skole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L10 - Collections/src/Opgave2x3/Studerende.java" afterDir="false" />
+    <list default="true" id="3f04143f-ba4e-432b-baa3-00a6f6a6ffef" name="Changes" comment="L10 - Collections Opgaver">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L10 - Collections/src/Opgave2x2/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/L10 - Collections/src/Opgave2x2/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L10 - Collections/src/Opgave3/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/L10 - Collections/src/Opgave3/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L10 - Collections/src/Opgave3/Skole.java" beforeDir="false" afterPath="$PROJECT_DIR$/L10 - Collections/src/Opgave3/Skole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L10 - Collections/src/Opgave3/Studerende.java" beforeDir="false" afterPath="$PROJECT_DIR$/L10 - Collections/src/Opgave3/Studerende.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +59,7 @@
     "full.screen.before.presentation.mode": "true",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "/Users/rasmusjerlov/Library/CloudStorage/OneDrive-EFIF/Datamatiker/2. Semester/PRO 2/Projects/Programmering2/L10 - Collections/src/Opgave2x3",
+    "last_opened_file_path": "/Users/rasmusjerlov/Library/CloudStorage/OneDrive-EFIF/Datamatiker/2. Semester/PRO 2/Projects/Programmering2/L10 - Collections/src/Opgave3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -68,17 +69,17 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/L10 - Collections/src/Opgave3" />
       <recent name="$PROJECT_DIR$/L10 - Collections/src/Opgave2x3" />
       <recent name="$PROJECT_DIR$/L09 - DobbelArrays/src" />
       <recent name="$PROJECT_DIR$/TestProjekt/src" />
       <recent name="$PROJECT_DIR$/L06 - Test/test" />
-      <recent name="$PROJECT_DIR$/L06 - Test/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/" />
@@ -91,7 +92,7 @@
       <recent name="controller" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SkoleTest.addSkole_AddStudents_Print">
+  <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Opgave2.App" />
       <module name="L10 - Collections" />
@@ -202,6 +203,7 @@
       <workItem from="1695278673323" duration="11712000" />
       <workItem from="1696236125042" duration="3083000" />
       <workItem from="1696833518993" duration="322000" />
+      <workItem from="1696833849088" duration="3704000" />
     </task>
     <task id="LOCAL-00001" summary="L02">
       <option name="closed" value="true" />
@@ -315,7 +317,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696238836098</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="L10 - Collections Opgaver">
+      <option name="closed" value="true" />
+      <created>1696834230655</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1696834230655</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,7 +338,8 @@
     <MESSAGE value="18. september kl 09" />
     <MESSAGE value="L09 - Dobbelt Array" />
     <MESSAGE value="L10 - Collections" />
-    <option name="LAST_COMMIT_MESSAGE" value="L10 - Collections" />
+    <MESSAGE value="L10 - Collections Opgaver" />
+    <option name="LAST_COMMIT_MESSAGE" value="L10 - Collections Opgaver" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

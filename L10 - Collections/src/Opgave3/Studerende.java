@@ -3,7 +3,7 @@ package Opgave3;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Studerende implements Comparable{
+public class Studerende implements Comparable<Studerende>{
     private int studieNr;
     private String navn;
     private List<Integer> karakterer = new ArrayList<>();
@@ -37,17 +37,19 @@ public class Studerende implements Comparable{
         this.karakterer = karakterer;
     }
 
+
+
     @Override
-    public String toString() {
-        return "Studerende{" +
-                "studieNr=" + studieNr +
-                ", navn='" + navn + '\'' +
-                ", karakterer=" + karakterer +
-                '}';
+    public int compareTo(Studerende o) {
+        return this.studieNr - o.studieNr;
     }
 
     @Override
-    public int compareTo(Object o) {
-        return 0;
+    public String toString() {
+        return "Studerende: " +
+                "\n\t studieNr = " + studieNr +
+                "\n\t navn = " + navn +
+                "\n\t karakterer = " + karakterer +
+                "\n";
     }
 }

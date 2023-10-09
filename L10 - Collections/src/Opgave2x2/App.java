@@ -1,5 +1,6 @@
 package Opgave2x2;
 
+import java.util.HashSet;
 import java.util.List;
 
 public class App {
@@ -11,10 +12,21 @@ public class App {
         Studerende s3 = new Studerende(3, "Oliver");
         Studerende s4 = new Studerende(4, "Martin");
 
-        s1.setKarakterer(List.of(4, 7, 7, 10));
-        s2.setKarakterer(List.of(2, 2, 7, 12));
-        s3.setKarakterer(List.of(7, 7, 10, 2));
-        s4.setKarakterer(List.of(10, 10, 7, 12));
+        HashSet<Integer> s1karakter = new HashSet<>();
+        s1karakter.addAll(List.of(4, 7, 7, 10));
+        s1.setKarakterer(s1karakter);
+
+        HashSet<Integer> s2karakter = new HashSet<>();
+        s2karakter.addAll(List.of(2, 2, 7, 12));
+        s2.setKarakterer(s2karakter);
+
+        HashSet<Integer> s3karakter = new HashSet<>();
+        s3karakter.addAll(List.of(7, 7, 10, 2));
+        s3.setKarakterer(s3karakter);
+
+        HashSet<Integer> s4karakter = new HashSet<>();
+        s4karakter.addAll(List.of(10, 10, 7, 12));
+        s4.setKarakterer(s4karakter);
 
         skole.addStuderende(s1);
         skole.addStuderende(s2);

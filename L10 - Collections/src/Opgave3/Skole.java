@@ -58,9 +58,9 @@ public class Skole {
 
     @Override
     public String toString() {
-        return "Skole{" +
-                "navn='" + navn + '\'' +
-                ", studerendeList=" + studerendeHashSet +
-                '}';
+        return "Skole: " +
+                "\n\t navn = " + navn +
+                "\n\t studerendeHashSet = " + studerendeHashSet +
+                "\n";
     }
 }
