@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f04143f-ba4e-432b-baa3-00a6f6a6ffef" name="Changes" comment="L10 - Collections Opgaver">
+      <change afterPath="$PROJECT_DIR$/L10 - Collections/Noter" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L11 - Kaedestrukturer/L11 - Kaedestrukturer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L11 - Kaedestrukturer/src/train/LinkedListTrain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L11 - Kaedestrukturer/src/train/LinkedListTrain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L11 - Kaedestrukturer/src/train/WagonNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L11 - Kaedestrukturer/src/traintest/LinkedListTrainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L10 - Collections/src/Opgave2x2/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/L10 - Collections/src/Opgave2x2/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L10 - Collections/src/Opgave3/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/L10 - Collections/src/Opgave3/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L10 - Collections/src/Opgave3/Skole.java" beforeDir="false" afterPath="$PROJECT_DIR$/L10 - Collections/src/Opgave3/Skole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L10 - Collections/src/Opgave3/Studerende.java" beforeDir="false" afterPath="$PROJECT_DIR$/L10 - Collections/src/Opgave3/Studerende.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,44 +45,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "full.screen.before.presentation.mode": "true",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "/Users/rasmusjerlov/Library/CloudStorage/OneDrive-EFIF/Datamatiker/2. Semester/PRO 2/Projects/Programmering2/L10 - Collections/src/Opgave3",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/rasmusjerlov/Library/CloudStorage/OneDrive-EFIF/Datamatiker/2. Semester/PRO 2/Projects/Programmering2/L05 - Lambda og interfaces/src/ex5student/Ex5.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/rasmusjerlov/Library/CloudStorage/OneDrive-EFIF/Datamatiker/2. Semester/PRO 2/Projects/Programmering2/L11 - Kaedestrukturer/src&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/rasmusjerlov/Library/CloudStorage/OneDrive-EFIF/Datamatiker/2. Semester/PRO 2/Projects/Programmering2/L05 - Lambda og interfaces/src/ex5student/Ex5.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/L11 - Kaedestrukturer/src" />
       <recent name="$PROJECT_DIR$/L10 - Collections/src/Opgave3" />
       <recent name="$PROJECT_DIR$/L10 - Collections/src/Opgave2x3" />
       <recent name="$PROJECT_DIR$/L09 - DobbelArrays/src" />
       <recent name="$PROJECT_DIR$/TestProjekt/src" />
-      <recent name="$PROJECT_DIR$/L06 - Test/test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/" />
@@ -92,73 +95,81 @@
       <recent name="controller" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Opgave2.App" />
-      <module name="L10 - Collections" />
+  <component name="RunManager" selected="JUnit.LinkedListTrainTest">
+    <configuration name="LinkedListTrainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="L11 - Kaedestrukturer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Opgave2.*" />
+          <option name="PATTERN" value="traintest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="traintest" />
+      <option name="MAIN_CLASS_NAME" value="traintest.LinkedListTrainTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Opgave1DobbelArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arraysdobbel.opgave1_2dobbelArray.Opgave1DobbelArray" />
-      <module name="L09 - DobbelArrays" />
+    <configuration name="LinkedListTrainTest.test_linkedListTrain_canAddFirstWagon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="L11 - Kaedestrukturer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arraysdobbel.opgave1_2dobbelArray.*" />
+          <option name="PATTERN" value="traintest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Opgave2DobbelArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arraysdobbel.opgave1_2dobbelArray.Opgave2DobbelArray" />
-      <module name="L09 - DobbelArrays" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arraysdobbel.opgave1_2dobbelArray.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SkoleTest.addSkole_AddStudents_Print" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="L10 - Collections" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Opgave2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Opgave2" />
-      <option name="MAIN_CLASS_NAME" value="Opgave2.SkoleTest" />
-      <option name="METHOD_NAME" value="addSkole_AddStudents_Print" />
+      <option name="PACKAGE_NAME" value="traintest" />
+      <option name="MAIN_CLASS_NAME" value="traintest.LinkedListTrainTest" />
+      <option name="METHOD_NAME" value="test_linkedListTrain_canAddFirstWagon" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SkoleTest.getStuderendeList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="L10 - Collections" />
+    <configuration name="LinkedListTrainTest.test_linkedListTrain_canCountWagons" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="L11 - Kaedestrukturer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Opgave2.*" />
+          <option name="PATTERN" value="traintest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Opgave2" />
-      <option name="MAIN_CLASS_NAME" value="Opgave2.SkoleTest" />
-      <option name="METHOD_NAME" value="getStuderendeList" />
+      <option name="PACKAGE_NAME" value="traintest" />
+      <option name="MAIN_CLASS_NAME" value="traintest.LinkedListTrainTest" />
+      <option name="METHOD_NAME" value="test_linkedListTrain_canCountWagons" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListTrainTest.test_linkedListTrain_canRemoveFirstWagon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="L11 - Kaedestrukturer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="traintest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="traintest" />
+      <option name="MAIN_CLASS_NAME" value="traintest.LinkedListTrainTest" />
+      <option name="METHOD_NAME" value="test_linkedListTrain_canRemoveFirstWagon" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListTrainTest.test_linkedListTrain_canRemoveWagon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="L11 - Kaedestrukturer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="traintest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="traintest" />
+      <option name="MAIN_CLASS_NAME" value="traintest.LinkedListTrainTest" />
+      <option name="METHOD_NAME" value="test_linkedListTrain_canRemoveWagon" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -166,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SkoleTest.addSkole_AddStudents_Print" />
-        <item itemvalue="JUnit.SkoleTest.getStuderendeList" />
-        <item itemvalue="Application.App" />
-        <item itemvalue="Application.Opgave2DobbelArray" />
-        <item itemvalue="Application.Opgave1DobbelArray" />
+        <item itemvalue="JUnit.LinkedListTrainTest" />
+        <item itemvalue="JUnit.LinkedListTrainTest.test_linkedListTrain_canRemoveWagon" />
+        <item itemvalue="JUnit.LinkedListTrainTest.test_linkedListTrain_canCountWagons" />
+        <item itemvalue="JUnit.LinkedListTrainTest.test_linkedListTrain_canRemoveFirstWagon" />
+        <item itemvalue="JUnit.LinkedListTrainTest.test_linkedListTrain_canAddFirstWagon" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +214,8 @@
       <workItem from="1695278673323" duration="11712000" />
       <workItem from="1696236125042" duration="3083000" />
       <workItem from="1696833518993" duration="322000" />
-      <workItem from="1696833849088" duration="3704000" />
+      <workItem from="1696833849088" duration="8998000" />
+      <workItem from="1697023741781" duration="587000" />
     </task>
     <task id="LOCAL-00001" summary="L02">
       <option name="closed" value="true" />
@@ -325,7 +337,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696834230655</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="L10 - Collections Opgaver">
+      <option name="closed" value="true" />
+      <created>1696839913166</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1696839913166</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
