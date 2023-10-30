@@ -5,6 +5,8 @@ import java.util.NoSuchElementException;
 public class LinkedListTrain2 extends LinkedListTrain
 {
     private WagonNode lastWagon;
+    private WagonNode firstWagon;
+    private int size = 0;
 
     /**
      * Constructs an empty double linked list train.
@@ -38,8 +40,18 @@ public class LinkedListTrain2 extends LinkedListTrain
      */
     public void addLast(WagonNode wagon)
     {
-        // TODO: Assignment 6: Implement this add method...
+        if (this.lastWagon == null) {
+            throw new NoSuchElementException();
+        }
+        if (lastWagon == null) {
+            firstWagon = wagon;
+            lastWagon = wagon;
+        } else {
+            lastWagon.setNextWagon(wagon);
+            wagon.setPreviousWagon(lastWagon);
+            lastWagon = wagon;
+        }
+        size++;
 
-        throw new UnsupportedOperationException("Not implemented");
     }
 }

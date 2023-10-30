@@ -6,6 +6,7 @@ import java.util.NoSuchElementException;
 public class LinkedListTrain
 {
     private WagonNode firstWagon;
+    private int count = 0;
 
     /**
      * Constructs an empty linked list train.
@@ -43,6 +44,7 @@ public class LinkedListTrain
             wagon.setNextWagon(this.firstWagon);
             this.firstWagon = wagon;
         }
+        count++;
     }
 
     /**
@@ -58,6 +60,7 @@ public class LinkedListTrain
         } else {
             WagonNode remove = this.firstWagon;
             this.firstWagon = remove.getNextWagon();
+            count--;
             return remove;
         }
     }
@@ -68,13 +71,7 @@ public class LinkedListTrain
      * @return the number of wagon nodes
      */
     public int count() {
-        int sum = 0;
-        WagonNode current = getFirst();
-        while (current != null) {
-            sum++;
-            current = current.getNextWagon();
-        }
-        return sum;
+        return count;
     }
 
     /**
@@ -85,26 +82,23 @@ public class LinkedListTrain
      *         <code>false</code> otherwise
      */
     public boolean remove(WagonNode wagon) {
-        // TODO: Assignment 4: Implement this remove method...
-        if (this.firstWagon == null) {
-            return false;
-        } else {
-            WagonNode current = this.firstWagon;
-            WagonNode previous = null;
-            while (current != null) {
-                if (current == wagon) {
-                    if (previous == null) {
-                        this.firstWagon = current.getNextWagon();
-                    } else {
-                        previous.setNextWagon(current.getNextWagon());
-                    }
-                    return true;
-                }
-                previous = current;
-                current = current.getNextWagon();
-            }
-            return false;
+
+        boolean found = false;
+        if (wagon == this.firstWagon) {
+            found = true;
+            removeFirst();
+            return found;
         }
+        WagonNode current = this.firstWagon;
+        while (current != null) {
+            if (current.getNextWagon() == wagon) {
+                current.setNextWagon(wagon.getNextWagon());
+                found = true;
+                return found;
+            }
+            current = current.getNextWagon();
+        }
+        return found;
     }
 
     /**
@@ -113,29 +107,18 @@ public class LinkedListTrain
      * @param wagon    the wagon node to add
      * @param position the position where to add the wagon node
      */
-    public void insertAt(WagonNode wagon, int position)
-    {
-        // TODO: Assignment 5: Implement this insert method...
-        if (position == 0) {
-            this.addFirst(wagon);
-        } else {
-            WagonNode current = this.firstWagon;
-            WagonNode previous = null;
-            int count = 0;
-            while (current != null) {
-                if (count == position) {
-                    previous.setNextWagon(wagon);
-                    wagon.setNextWagon(current);
-                    return;
-                }
-                previous = current;
-                current = current.getNextWagon();
-                count++;
-            }
-            if (count == position) {
+    public void insertAt(WagonNode wagon, int position) {
+        WagonNode current = this.firstWagon;
+        WagonNode previous = null;
+        int count = 0;
+        while (current != null) {
+            if (position == count) {
                 previous.setNextWagon(wagon);
+                wagon.setNextWagon(current);
             }
+            previous = current;
+            current = current.getNextWagon();
+            count++;
         }
-        throw new UnsupportedOperationException("Not implemented");
     }
 }

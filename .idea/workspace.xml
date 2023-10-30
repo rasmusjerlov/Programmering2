@@ -4,15 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f04143f-ba4e-432b-baa3-00a6f6a6ffef" name="Changes" comment="L10 - Collections Opgaver">
-      <change afterPath="$PROJECT_DIR$/L10 - Collections/Noter" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L11 - Kaedestrukturer/L11 - Kaedestrukturer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L11 - Kaedestrukturer/src/train/LinkedListTrain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L11 - Kaedestrukturer/src/train/LinkedListTrain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L11 - Kaedestrukturer/src/train/WagonNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L11 - Kaedestrukturer/src/traintest/LinkedListTrainTest.java" afterDir="false" />
+    <list default="true" id="3f04143f-ba4e-432b-baa3-00a6f6a6ffef" name="Changes" comment="L11 - Linked List Opgaver">
+      <change afterPath="$PROJECT_DIR$/L12 - Stacks/L12 - Stacks.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L12 - Stacks/Test/StackTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L12 - Stacks/src/stack/ArrayListStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L12 - Stacks/src/stack/ArrayStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L12 - Stacks/src/stack/NodeStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L12 - Stacks/src/stack/StackI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L12 - Stacks/src/stack/Validator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L11 - Kaedestrukturer/src/train/LinkedListTrain.java" beforeDir="false" afterPath="$PROJECT_DIR$/L11 - Kaedestrukturer/src/train/LinkedListTrain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L11 - Kaedestrukturer/src/train/LinkedListTrain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/L11 - Kaedestrukturer/src/train/LinkedListTrain2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +26,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -62,7 +65,7 @@
     &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/rasmusjerlov/Library/CloudStorage/OneDrive-EFIF/Datamatiker/2. Semester/PRO 2/Projects/Programmering2/L11 - Kaedestrukturer/src&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/rasmusjerlov/Library/CloudStorage/OneDrive-EFIF/Datamatiker/2. Semester/PRO 2/Projects/Programmering2/L12 - Stacks/src&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -78,11 +81,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/L12 - Stacks/src" />
+      <recent name="$PROJECT_DIR$/L12 - Stacks/Test" />
       <recent name="$PROJECT_DIR$/L11 - Kaedestrukturer/src" />
       <recent name="$PROJECT_DIR$/L10 - Collections/src/Opgave3" />
       <recent name="$PROJECT_DIR$/L10 - Collections/src/Opgave2x3" />
-      <recent name="$PROJECT_DIR$/L09 - DobbelArrays/src" />
-      <recent name="$PROJECT_DIR$/TestProjekt/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/" />
@@ -90,13 +93,16 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="Opgave2" />
       <recent name="controller" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LinkedListTrainTest">
-    <configuration name="LinkedListTrainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LinkedListTrainTest.test_linkedListTrain_canInsertWagonAtPosition">
+    <configuration name="LinkedListTrainTest.test_linkedListTrain_canInsertWagonAtPosition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="L11 - Kaedestrukturer" />
       <extension name="coverage">
         <pattern>
@@ -106,70 +112,51 @@
       </extension>
       <option name="PACKAGE_NAME" value="traintest" />
       <option name="MAIN_CLASS_NAME" value="traintest.LinkedListTrainTest" />
+      <option name="METHOD_NAME" value="test_linkedListTrain_canInsertWagonAtPosition" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="L12 - Stacks" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StackTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTrainTest.test_linkedListTrain_canAddFirstWagon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="L11 - Kaedestrukturer" />
+    <configuration name="StackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="L12 - Stacks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="traintest.*" />
+          <option name="PATTERN" value="stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="traintest" />
-      <option name="MAIN_CLASS_NAME" value="traintest.LinkedListTrainTest" />
-      <option name="METHOD_NAME" value="test_linkedListTrain_canAddFirstWagon" />
+      <option name="PACKAGE_NAME" value="stack" />
+      <option name="MAIN_CLASS_NAME" value="stack.StackTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackTest.test_stack_canPushAndPop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="L12 - Stacks" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StackTest" />
+      <option name="METHOD_NAME" value="test_stack_canPushAndPop" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTrainTest.test_linkedListTrain_canCountWagons" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="L11 - Kaedestrukturer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="traintest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="traintest" />
-      <option name="MAIN_CLASS_NAME" value="traintest.LinkedListTrainTest" />
-      <option name="METHOD_NAME" value="test_linkedListTrain_canCountWagons" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinkedListTrainTest.test_linkedListTrain_canRemoveFirstWagon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="L11 - Kaedestrukturer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="traintest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="traintest" />
-      <option name="MAIN_CLASS_NAME" value="traintest.LinkedListTrainTest" />
-      <option name="METHOD_NAME" value="test_linkedListTrain_canRemoveFirstWagon" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinkedListTrainTest.test_linkedListTrain_canRemoveWagon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="L11 - Kaedestrukturer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="traintest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="traintest" />
-      <option name="MAIN_CLASS_NAME" value="traintest.LinkedListTrainTest" />
-      <option name="METHOD_NAME" value="test_linkedListTrain_canRemoveWagon" />
+    <configuration name="StackTest.test_stack_returnsIsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="L12 - Stacks" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StackTest" />
+      <option name="METHOD_NAME" value="test_stack_returnsIsEmpty" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -177,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LinkedListTrainTest" />
-        <item itemvalue="JUnit.LinkedListTrainTest.test_linkedListTrain_canRemoveWagon" />
-        <item itemvalue="JUnit.LinkedListTrainTest.test_linkedListTrain_canCountWagons" />
-        <item itemvalue="JUnit.LinkedListTrainTest.test_linkedListTrain_canRemoveFirstWagon" />
-        <item itemvalue="JUnit.LinkedListTrainTest.test_linkedListTrain_canAddFirstWagon" />
+        <item itemvalue="JUnit.LinkedListTrainTest.test_linkedListTrain_canInsertWagonAtPosition" />
+        <item itemvalue="JUnit.StackTest (1)" />
+        <item itemvalue="JUnit.StackTest.test_stack_canPushAndPop" />
+        <item itemvalue="JUnit.StackTest.test_stack_returnsIsEmpty" />
+        <item itemvalue="JUnit.StackTest" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +202,11 @@
       <workItem from="1696236125042" duration="3083000" />
       <workItem from="1696833518993" duration="322000" />
       <workItem from="1696833849088" duration="8998000" />
-      <workItem from="1697023741781" duration="587000" />
+      <workItem from="1697023741781" duration="613000" />
+      <workItem from="1697095846588" duration="7013000" />
+      <workItem from="1698088790107" duration="59000" />
+      <workItem from="1698088878522" duration="6451000" />
+      <workItem from="1698651216396" duration="967000" />
     </task>
     <task id="LOCAL-00001" summary="L02">
       <option name="closed" value="true" />
@@ -345,7 +336,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696839913166</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="L11 - Linked List Opgaver">
+      <option name="closed" value="true" />
+      <created>1697058916073</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1697058916073</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,7 +358,19 @@
     <MESSAGE value="L09 - Dobbelt Array" />
     <MESSAGE value="L10 - Collections" />
     <MESSAGE value="L10 - Collections Opgaver" />
-    <option name="LAST_COMMIT_MESSAGE" value="L10 - Collections Opgaver" />
+    <MESSAGE value="L11 - Linked List Opgaver" />
+    <option name="LAST_COMMIT_MESSAGE" value="L11 - Linked List Opgaver" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/L12 - Stacks/src/stack/ArrayStack.java</url>
+          <line>102</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
