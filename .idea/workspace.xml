@@ -5,17 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f04143f-ba4e-432b-baa3-00a6f6a6ffef" name="Changes" comment="L11 - Linked List Opgaver">
-      <change afterPath="$PROJECT_DIR$/L12 - Stacks/L12 - Stacks.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L12 - Stacks/Test/StackTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L12 - Stacks/src/stack/ArrayListStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L12 - Stacks/src/stack/ArrayStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L12 - Stacks/src/stack/NodeStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L12 - Stacks/src/stack/StackI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L12 - Stacks/src/stack/Validator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L14 - Generics/L14 - Generics.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L14 - Generics/Queuetest/QueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L14 - Generics/src/drinks/ClubMate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L14 - Generics/src/queue/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L14 - Generics/src/queue/SnackQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L14 - Generics/src/snacks/Limb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L14 - Generics/src/snacks/Pez.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L14 - Generics/src/snacks/Smartie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L14 - Generics/src/snacks/Snack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L14 - Generics/src/snackssupply/SnackBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L14 - Generics/src/snackssupply/SnackFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L15 - Rekursion/L15 - Rekursion.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L15 - Rekursion/src/eksempelRekursion/eksempel/EksempelRekursiveMetoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L15 - Rekursion/src/eksempelRekursion/eksempel/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L15 - Rekursion/src/eksempelRekursion/rekursion/EksemplerUndervisning1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L15 - Rekursion/src/opgaver/opgaveløsning.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L11 - Kaedestrukturer/src/train/LinkedListTrain.java" beforeDir="false" afterPath="$PROJECT_DIR$/L11 - Kaedestrukturer/src/train/LinkedListTrain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L11 - Kaedestrukturer/src/train/LinkedListTrain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/L11 - Kaedestrukturer/src/train/LinkedListTrain2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L10 - Collections/src/AnvendMetoderPaaHashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/L10 - Collections/src/AnvendMetoderPaaHashSet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,44 +56,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/rasmusjerlov/Library/CloudStorage/OneDrive-EFIF/Datamatiker/2. Semester/PRO 2/Projects/Programmering2/L12 - Stacks/src&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/rasmusjerlov/Library/CloudStorage/OneDrive-EFIF/Datamatiker/2. Semester/PRO 2/Projects/Programmering2/L05 - Lambda og interfaces/src/ex5student/Ex5.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "full.screen.before.presentation.mode": "true",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "/Users/rasmusjerlov/Library/CloudStorage/OneDrive-EFIF/Datamatiker/2. Semester/PRO 2/Projects/Programmering2/L15 - Rekursion/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/rasmusjerlov/Library/CloudStorage/OneDrive-EFIF/Datamatiker/2. Semester/PRO 2/Projects/Programmering2/L05 - Lambda og interfaces/src/ex5student/Ex5.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/L15 - Rekursion/src" />
+      <recent name="$PROJECT_DIR$/L14 - Generics/src" />
       <recent name="$PROJECT_DIR$/L12 - Stacks/src" />
       <recent name="$PROJECT_DIR$/L12 - Stacks/Test" />
       <recent name="$PROJECT_DIR$/L11 - Kaedestrukturer/src" />
-      <recent name="$PROJECT_DIR$/L10 - Collections/src/Opgave3" />
-      <recent name="$PROJECT_DIR$/L10 - Collections/src/Opgave2x3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/" />
@@ -101,7 +109,33 @@
       <recent name="controller" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LinkedListTrainTest.test_linkedListTrain_canInsertWagonAtPosition">
+  <component name="RunManager" selected="Application.opgaveløsning">
+    <configuration name="SnackGeneric" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="snacks.SnackGeneric" />
+      <module name="L14 - Generics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="snacks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="opgaveløsning" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="opgaver.opgaveløsning" />
+      <module name="L15 - Rekursion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="opgaver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LinkedListTrainTest.test_linkedListTrain_canInsertWagonAtPosition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="L11 - Kaedestrukturer" />
       <extension name="coverage">
@@ -118,6 +152,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="QueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="L14 - Generics" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="QueueTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StackTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="L12 - Stacks" />
       <option name="PACKAGE_NAME" value="" />
@@ -127,48 +170,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="L12 - Stacks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="stack" />
-      <option name="MAIN_CLASS_NAME" value="stack.StackTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StackTest.test_stack_canPushAndPop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="L12 - Stacks" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StackTest" />
-      <option name="METHOD_NAME" value="test_stack_canPushAndPop" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StackTest.test_stack_returnsIsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="L12 - Stacks" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StackTest" />
-      <option name="METHOD_NAME" value="test_stack_returnsIsEmpty" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.opgaveløsning" />
+        <item itemvalue="Application.SnackGeneric" />
+        <item itemvalue="JUnit.QueueTest" />
         <item itemvalue="JUnit.LinkedListTrainTest.test_linkedListTrain_canInsertWagonAtPosition" />
         <item itemvalue="JUnit.StackTest (1)" />
-        <item itemvalue="JUnit.StackTest.test_stack_canPushAndPop" />
-        <item itemvalue="JUnit.StackTest.test_stack_returnsIsEmpty" />
-        <item itemvalue="JUnit.StackTest" />
       </list>
     </recent_temporary>
   </component>
@@ -207,6 +215,7 @@
       <workItem from="1698088790107" duration="59000" />
       <workItem from="1698088878522" duration="6451000" />
       <workItem from="1698651216396" duration="967000" />
+      <workItem from="1698652221477" duration="18912000" />
     </task>
     <task id="LOCAL-00001" summary="L02">
       <option name="closed" value="true" />
@@ -344,7 +353,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697058916073</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="L11 - Linked List Opgaver">
+      <option name="closed" value="true" />
+      <created>1698652780690</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1698652780690</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

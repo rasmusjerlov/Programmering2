@@ -12,6 +12,8 @@
       <module fileurl="file://$PROJECT_DIR$/L10 - Collections/L10 - Collections.iml" filepath="$PROJECT_DIR$/L10 - Collections/L10 - Collections.iml" />
       <module fileurl="file://$PROJECT_DIR$/L11 - Kaedestrukturer/L11 - Kaedestrukturer.iml" filepath="$PROJECT_DIR$/L11 - Kaedestrukturer/L11 - Kaedestrukturer.iml" />
       <module fileurl="file://$PROJECT_DIR$/L12 - Stacks/L12 - Stacks.iml" filepath="$PROJECT_DIR$/L12 - Stacks/L12 - Stacks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/L14 - Generics/L14 - Generics.iml" filepath="$PROJECT_DIR$/L14 - Generics/L14 - Generics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/L15 - Rekursion/L15 - Rekursion.iml" filepath="$PROJECT_DIR$/L15 - Rekursion/L15 - Rekursion.iml" />
       <module fileurl="file://$PROJECT_DIR$/Programmering2.iml" filepath="$PROJECT_DIR$/Programmering2.iml" />
     </modules>
   </component>

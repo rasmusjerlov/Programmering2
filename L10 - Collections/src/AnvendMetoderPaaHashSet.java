@@ -1,7 +1,4 @@
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
+import java.util.*;
 
 public class AnvendMetoderPaaHashSet {
     public static void main(String[] args) {
@@ -31,6 +28,7 @@ public class AnvendMetoderPaaHashSet {
         //Opgave 9
         System.out.println("Opgave 1.9");
         System.out.println(numbers.size());
+
 
     }
 }
