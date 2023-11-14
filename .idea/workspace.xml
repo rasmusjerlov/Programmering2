@@ -4,25 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f04143f-ba4e-432b-baa3-00a6f6a6ffef" name="Changes" comment="L11 - Linked List Opgaver">
-      <change afterPath="$PROJECT_DIR$/L15 - Rekursion/src/fletning/FletteSorteringHul.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L15 - Rekursion/src/fletning/TestFlettesortering.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L15 - Rekursion/src/opgaver/Opgave1/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L15 - Rekursion/src/opgaver/Opgave1/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L15 - Rekursion/src/opgaver/Opgave2/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L15 - Rekursion/src/opgaver/Opgave2/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L15 - Rekursion/test/Opgave1Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L16 - Divide and Conquer/L16 - Divide and Conquer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L16 - Divide and Conquer/src/fletning/FletteSorteringHul.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L16 - Divide and Conquer/src/fletning/TestFlettesortering.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L16 - Divide and Conquer/src/opgaver/Opgave1/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L16 - Divide and Conquer/src/opgaver/Opgave2/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L16 - Divide and Conquer/test/Opgave1Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L16 - Divide and Conquer/test/Opgave2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L16 - Divide and Conquer/test/Opgave3Test.java" afterDir="false" />
+    <list default="true" id="3f04143f-ba4e-432b-baa3-00a6f6a6ffef" name="Changes" comment="L15 - Divide and conquer">
+      <change afterPath="$PROJECT_DIR$/L17 - Design Patterns/L17 - Design Patterns.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L17 - Design Patterns/src/Opgave2/AnvendCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L17 - Design Patterns/src/Opgave2/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L17 - Design Patterns/src/Opgave3/AnvendPersonAdministrator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L17 - Design Patterns/src/Opgave3/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L17 - Design Patterns/src/Opgave3/PersonAdministrator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L15 - Rekursion/L15 - Rekursion.iml" beforeDir="false" afterPath="$PROJECT_DIR$/L15 - Rekursion/L15 - Rekursion.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -55,37 +45,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "full.screen.before.presentation.mode": "true",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "/Users/rasmusjerlov/Library/CloudStorage/OneDrive-EFIF/Datamatiker/2. Semester/PRO 2/Projects/Programmering2/L16 - Divide and Conquer",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/rasmusjerlov/Library/CloudStorage/OneDrive-EFIF/Datamatiker/2. Semester/PRO 2/Projects/Programmering2/L05 - Lambda og interfaces/src/ex5student/Ex5.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/rasmusjerlov/Library/CloudStorage/OneDrive-EFIF/Datamatiker/2. Semester/PRO 2/Projects/Programmering2/L16 - Divide and Conquer&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/rasmusjerlov/Library/CloudStorage/OneDrive-EFIF/Datamatiker/2. Semester/PRO 2/Projects/Programmering2/L05 - Lambda og interfaces/src/ex5student/Ex5.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/L16 - Divide and Conquer" />
@@ -112,13 +102,20 @@
       <recent name="opgaver.Opgave3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestFlettesortering (1)">
-    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="opgaver.Opgave1.Calculator" />
-      <module name="L15 - Rekursion" />
+  <component name="RunManager" selected="Application.AnvendPersonAdministrator">
+    <configuration name="AnvendCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Opgave2.AnvendCounter" />
+      <module name="L17 - Design Patterns" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnvendPersonAdministrator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Opgave3.AnvendPersonAdministrator" />
+      <module name="L17 - Design Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="Opgave3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,16 +145,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Opgave1Test.summering_test_even" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="L15 - Rekursion" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Opgave1Test" />
-      <option name="METHOD_NAME" value="summering_test_even" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Opgave2Test.count_zero_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="L16 - Divide and Conquer" />
       <option name="PACKAGE_NAME" value="" />
@@ -170,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AnvendPersonAdministrator" />
+        <item itemvalue="Application.AnvendCounter" />
         <item itemvalue="Application.TestFlettesortering (1)" />
         <item itemvalue="JUnit.Opgave2Test.count_zero_1" />
         <item itemvalue="JUnit.Opgave1Test" />
-        <item itemvalue="JUnit.Opgave1Test.summering_test_even" />
-        <item itemvalue="Application.Calculator" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +200,9 @@
       <workItem from="1698088790107" duration="59000" />
       <workItem from="1698088878522" duration="6451000" />
       <workItem from="1698651216396" duration="967000" />
-      <workItem from="1698652221477" duration="28229000" />
+      <workItem from="1698652221477" duration="31645000" />
+      <workItem from="1699958962544" duration="24000" />
+      <workItem from="1699958993877" duration="116000" />
     </task>
     <task id="LOCAL-00001" summary="L02">
       <option name="closed" value="true" />
@@ -367,7 +356,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699445709709</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="L15 - Divide and conquer">
+      <option name="closed" value="true" />
+      <created>1699908644849</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1699908644849</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -382,7 +379,8 @@
     <MESSAGE value="L10 - Collections" />
     <MESSAGE value="L10 - Collections Opgaver" />
     <MESSAGE value="L11 - Linked List Opgaver" />
-    <option name="LAST_COMMIT_MESSAGE" value="L11 - Linked List Opgaver" />
+    <MESSAGE value="L15 - Divide and conquer" />
+    <option name="LAST_COMMIT_MESSAGE" value="L15 - Divide and conquer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
