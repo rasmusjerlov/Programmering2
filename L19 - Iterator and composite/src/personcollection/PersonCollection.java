@@ -1,8 +1,10 @@
 package personcollection;
 
+import java.util.Collection;
 import java.util.Iterator;
+import java.util.NoSuchElementException;
 
-public class PersonCollection implements Iterable<Person> {
+public class PersonCollection {
     // array to store the persons in;
     // persons have indices in [0, size-1]
     private Person[] persons;
@@ -146,4 +148,41 @@ public class PersonCollection implements Iterable<Person> {
 
     // TODO
 
+}
+class MyIterator implements Iterator {
+    private PersonCollection pc;
+    private int currentIndex;
+
+    public MyIterator(PersonCollection pc) {
+        this.pc = pc;
+        this.currentIndex = 0;
+    }
+
+    @Override
+    public boolean hasNext() {
+        boolean hn;
+        if (pc.isEmpty()) {
+            throw new NoSuchElementException();
+        }
+
+        if (currentIndex < pc.size() - 1) {
+            hn = true;
+        } else {
+            hn = false;
+        }
+        currentIndex++;
+        return hn;
+    }
+
+    @Override
+    public Object next() {
+        if (!hasNext()) {
+            throw new NoSuchElementException();
+        }
+        return pc.get(currentIndex++);
+    }
+
+    public Iterator<Person> iterator() {
+        return new MyIterator(pc);
+    }
 }

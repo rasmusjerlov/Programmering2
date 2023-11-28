@@ -119,4 +119,15 @@ public class opgaveløsning {
             return b;
         }
     }
+
+    //OPGAVE 6
+    public static int domino(int n) {
+        int result = 0;
+        if (n <= 2) {
+            result = n;
+        } else {
+            result = domino(n - 1) + domino(n - 2);
+        }
+        return result;
+    }
 }

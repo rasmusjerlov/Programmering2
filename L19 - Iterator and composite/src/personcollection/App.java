@@ -19,6 +19,16 @@ public class App {
         System.out.println(persons);
         persons.remove(3);
         System.out.println(persons);
-        System.out.println(persons.isEmpty());
+
+
+        //Opgave 2
+        Person p6 = new Person("Thomas");
+        PersonCollection personsFail = new PersonCollection(1);
+        personsFail.add(p6);
+        MyIterator myIterator = new MyIterator(persons);
+        System.out.println(myIterator.hasNext());
+        System.out.println(myIterator.next());
+
+        System.out.println(myIterator.iterator());
     }
 }
