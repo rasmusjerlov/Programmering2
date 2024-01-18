@@ -5,12 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f04143f-ba4e-432b-baa3-00a6f6a6ffef" name="Changes" comment="L15 - Divide and conquer">
-      <change afterPath="$PROJECT_DIR$/L15 - Rekursion/src/opgaver/opgave6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Juleafslutning/Juleafslutning.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Juleafslutning/src/CalculateBeer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L13 - Queues/L13 - Queues.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L13 - Queues/src/bryghus/Produkt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L13 - Queues/src/bryghus/Salg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L13 - Queues/src/bryghus/SalgsLinje.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L13 - Queues/src/bryghus/SalgsStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L13 - Queues/src/cannibal/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L13 - Queues/src/cannibal/CircularCannibalMeal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L13 - Queues/src/cannibal/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L13 - Queues/src/cannibal/QueueI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L13 - Queues/src/deque/CircularArrayDeque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L13 - Queues/src/deque/DequeI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L13 - Queues/src/queue/CircularArrayQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L13 - Queues/src/queue/NodeQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L13 - Queues/src/queue/QueueI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L15.1 - Rekursion/L15.1 - Rekursion.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L15.1 - Rekursion/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L15.1 - Rekursion/src/eksempel/EksempelRekursiveMetoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L15.1 - Rekursion/src/eksempel/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L15.1 - Rekursion/src/opgaver/Opgave1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L15.1 - Rekursion/src/opgaver/Opgave3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L15.1 - Rekursion/src/opgaver/Opgave5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L15.1 - Rekursion/src/opgaver/opgave2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L15.1 - Rekursion/src/opgaver/opgave4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L15.1 - Rekursion/src/opgaver/opgave6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L15.1 - Rekursion/src/rekursion/EksemplerUndervisning1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestEksamen/TestEksamen.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestEksamen/src/ForSjov.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestEksamen/src/navigation/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestEksamen/src/navigation/NavigationComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestEksamen/src/navigation/NavigationItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestEksamen/src/navigation/NavigationMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestEksamen/src/test/NavigationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L15 - Rekursion/src/opgaver/opgaveløsning.java" beforeDir="false" afterPath="$PROJECT_DIR$/L15 - Rekursion/src/opgaver/opgaveløsning.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L19 - Iterator and composite/src/personcollection/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/L19 - Iterator and composite/src/personcollection/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L19 - Iterator and composite/src/personcollection/PersonCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/L19 - Iterator and composite/src/personcollection/PersonCollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L12 - Stacks/src/stack/ArrayListStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/L12 - Stacks/src/stack/ArrayListStack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,44 +74,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/rasmusjerlov/Library/CloudStorage/OneDrive-EFIF/Datamatiker/2. Semester/PRO 2/Projects/Programmering2/L16 - Divide and Conquer&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/rasmusjerlov/Library/CloudStorage/OneDrive-EFIF/Datamatiker/2. Semester/PRO 2/Projects/Programmering2/L05 - Lambda og interfaces/src/ex5student/Ex5.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.CalculateBeer.executor": "Debug",
+    "Application.NavigationTest.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "full.screen.before.presentation.mode": "true",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/rasmusjerlov/Library/CloudStorage/OneDrive-EFIF/Datamatiker/2. Semester/PRO 2/Projects/Programmering2/L19 - Iterator and composite/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/rasmusjerlov/Library/CloudStorage/OneDrive-EFIF/Datamatiker/2. Semester/PRO 2/Projects/Programmering2/L17 - Design Patterns/src/Opgave2/Counter.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/L19 - Iterator and composite/src" />
       <recent name="$PROJECT_DIR$/L16 - Divide and Conquer" />
       <recent name="$PROJECT_DIR$/L16 - Divide and Conquer/src" />
       <recent name="$PROJECT_DIR$/L15 - Rekursion/src" />
       <recent name="$PROJECT_DIR$/L14 - Generics/src" />
-      <recent name="$PROJECT_DIR$/L12 - Stacks/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/" />
@@ -100,7 +134,7 @@
       <recent name="opgaver.Opgave3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Application.CalculateBeer">
     <configuration name="AnvendCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Opgave2.AnvendCounter" />
       <module name="L17 - Design Patterns" />
@@ -134,12 +168,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestFlettesortering (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fletning.TestFlettesortering" />
-      <module name="L16 - Divide and Conquer" />
+    <configuration name="CalculateBeer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CalculateBeer" />
+      <module name="Juleafslutning" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NavigationTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.NavigationTest" />
+      <module name="TestEksamen" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fletning.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,25 +188,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Opgave2Test.count_zero_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="L16 - Divide and Conquer" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Opgave2Test" />
-      <option name="METHOD_NAME" value="count_zero_1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CalculateBeer" />
+        <item itemvalue="Application.NavigationTest" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.AnvendPersonAdministrator" />
         <item itemvalue="Application.AnvendCounter" />
-        <item itemvalue="Application.TestFlettesortering (1)" />
-        <item itemvalue="JUnit.Opgave2Test.count_zero_1" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-temurin-17.0.9-3183f394aec4-9e320d02" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -205,6 +243,12 @@
       <workItem from="1698652221477" duration="31645000" />
       <workItem from="1699958962544" duration="24000" />
       <workItem from="1699958993877" duration="116000" />
+      <workItem from="1699959137342" duration="2101000" />
+      <workItem from="1701107440172" duration="3123000" />
+      <workItem from="1701250852082" duration="601000" />
+      <workItem from="1702540120435" duration="6000" />
+      <workItem from="1702540131430" duration="41000" />
+      <workItem from="1702540216487" duration="15079000" />
     </task>
     <task id="LOCAL-00001" summary="L02">
       <option name="closed" value="true" />
@@ -366,22 +410,19 @@
       <option name="project" value="LOCAL" />
       <updated>1699908644849</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="L15 - Divide and conquer">
+      <option name="closed" value="true" />
+      <created>1699964829034</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1699964829034</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -402,6 +443,11 @@
           <url>file://$PROJECT_DIR$/L12 - Stacks/src/stack/ArrayStack.java</url>
           <line>102</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/L17 - Design Patterns/src/Opgave2/Counter.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
